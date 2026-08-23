@@ -1,1 +1,20 @@
-PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIj4KICA8IS0tIEV4cGVyaW1lbnQgRm9yZXN0IGljb246IHRyZWVzICsgbGFiIC0tPgogIDwhLS0gVHJlZSAxIGxlZnQgLS0+CiAgPHBvbHlnb24gcG9pbnRzPSI3LDIyIDMsMTYgMTEsMTYiIGZpbGw9IiMxMjJlMTgiIG9wYWNpdHk9IjAuOSIvPgogIDxwb2x5Z29uIHBvaW50cz0iNywxOSA0LDEzIDEwLDEzIiBmaWxsPSIjMTYzNTIwIiBvcGFjaXR5PSIwLjg1Ii8+CiAgPHJlY3QgeD0iNiIgeT0iMjIiIHdpZHRoPSIyIiBoZWlnaHQ9IjQiIGZpbGw9IiMwYTFlMTAiLz4KICA8IS0tIFRyZWUgMiBjZW50ZXIgLS0+CiAgPHBvbHlnb24gcG9pbnRzPSIxNiwyMCAxMiwxNCAxNCwyMCwxNCIgZmlsbD0iIzBmMmExNiIgb3BhY2l0eT0iMC45Ii8+CiAgPHBvbHlnb24gcG9pbnRzPSIxNiwyMCAxMiwxNCAxNCwyMCIgZmlsbD0iIzBmMmExNiIgb3BhY2l0eT0iMC45Ii8+CiAgPHBvbHlnb24gcG9pbnRzPSIxNiwyMCAxMiwxNCAyMCwxNCIgZmlsbD0iIzBmMmExNiIgb3BhY2l0eT0iMC45Ii8+CiAgPHBvbHlnb24gcG9pbnRzPSIxNiwxNyAxMywxMSAxOSwxMSIgZmlsbD0iIzEyMmUxOCIgb3BhY2l0eT0iMC44NSIvPgogIDxyZWN0IHg9IjE1IiB5PSIyMCIgd2lkdGg9IjIiIGhlaWdodD0iNSIgZmlsbD0iIzA5MTkwZSIvPgogIDwhLS0gU21hbGwgbGFiIGJ1aWxkaW5nIHJpZ2h0IC0tPgogIDxyZWN0IHg9IjIxIiB5PSIxNCIgd2lkdGg9IjkiIGhlaWdodD0iMTIiIGZpbGw9IiMwYTIwMTgiIHJ4PSIxIi8+CiAgPHJlY3QgeD0iMjEiIHk9IjE0IiB3aWR0aD0iOSIgaGVpZ2h0PSIxLjUiIGZpbGw9IiM4ZmJhNzIiIG9wYWNpdHk9IjAuNiIvPgogIDxyZWN0IHg9IjIyLjUiIHk9IjE3IiB3aWR0aD0iMiIgaGVpZ2h0PSIyIiBmaWxsPSIjOGZiYTcyIiBvcGFjaXR5PSIwLjUiIHJ4PSIwLjMiLz4KICA8cmVjdCB4PSIyNiIgeT0iMTciIHdpZHRoPSIyIiBoZWlnaHQ9IjIiIGZpbGw9IiM4ZmJhNzIiIG9wYWNpdHk9IjAuNSIgcng9IjAuMyIvPgogIDxyZWN0IHg9IjIyLjUiIHk9IjIxIiB3aWR0aD0iMiIgaGVpZ2h0PSIyIiBmaWxsPSIjOGZiYTcyIiBvcGFjaXR5PSIwLjQiIHJ4PSIwLjMiLz4KICA8cmVjdCB4PSIyNiIgeT0iMjEiIHdpZHRoPSIyIiBoZWlnaHQ9IjIiIGZpbGw9IiM4ZmJhNzIiIG9wYWNpdHk9IjAuNCIgcng9IjAuMyIvPgogIDwhLS0gR3JvdW5kIC0tPgogIDxyZWN0IHg9IjIiIHk9IjI2IiB3aWR0aD0iMjgiIGhlaWdodD0iMiIgZmlsbD0iIzA4MTYwYyIgcng9IjEiLz4KPC9zdmc+Cg==
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Experiment Forest icon: trees + lab -->
+  <!-- Tree 1 left -->
+  <polygon points="7,22 3,16 11,16" fill="#122e18" opacity="0.9"/>
+  <polygon points="7,19 4,13 10,13" fill="#163520" opacity="0.85"/>
+  <rect x="6" y="22" width="2" height="4" fill="#0a1e10"/>
+  <!-- Tree 2 center -->
+  <polygon points="16,20 12,14 20,14" fill="#0f2a16" opacity="0.9"/>
+  <polygon points="16,17 13,11 19,11" fill="#122e18" opacity="0.85"/>
+  <rect x="15" y="20" width="2" height="5" fill="#09190e"/>
+  <!-- Small lab building right -->
+  <rect x="21" y="14" width="9" height="12" fill="#0a2018" rx="1"/>
+  <rect x="21" y="14" width="9" height="1.5" fill="#8fba72" opacity="0.6"/>
+  <rect x="22.5" y="17" width="2" height="2" fill="#8fba72" opacity="0.5" rx="0.3"/>
+  <rect x="26" y="17" width="2" height="2" fill="#8fba72" opacity="0.5" rx="0.3"/>
+  <rect x="22.5" y="21" width="2" height="2" fill="#8fba72" opacity="0.4" rx="0.3"/>
+  <rect x="26" y="21" width="2" height="2" fill="#8fba72" opacity="0.4" rx="0.3"/>
+  <!-- Ground -->
+  <rect x="2" y="26" width="28" height="2" fill="#08160c" rx="1"/>
+</svg>
