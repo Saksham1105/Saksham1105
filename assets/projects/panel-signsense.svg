@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="100%" height="auto">
+  <defs>
+    <linearGradient id="ss-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b162c"/>
+      <stop offset="60%" stop-color="#0f2042"/>
+      <stop offset="100%" stop-color="#091224"/>
+    </linearGradient>
+    <linearGradient id="ss-glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4a9eff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#6db3ff" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="240" rx="12" fill="url(#ss-bg)"/>
+  <rect width="798" height="238" x="1" y="1" rx="11" fill="none" stroke="#4a9eff" stroke-width="1" stroke-opacity="0.3"/>
+  
+  <!-- Subtle Neural Network / Computer Vision Grid Background (Right side) -->
+  <g opacity="0.25">
+    <!-- Hand Landmark Skeleton -->
+    <path d="M 640 180 L 630 140 L 610 110 L 590 90 L 580 80" stroke="#4a9eff" stroke-width="1.5" fill="none"/>
+    <path d="M 630 140 L 625 95 L 620 70 L 615 55" stroke="#4a9eff" stroke-width="1.5" fill="none"/>
+    <path d="M 630 140 L 645 90 L 650 65 L 652 50" stroke="#4a9eff" stroke-width="1.5" fill="none"/>
+    <path d="M 630 140 L 665 95 L 672 75 L 678 60" stroke="#4a9eff" stroke-width="1.5" fill="none"/>
+    <path d="M 630 140 L 685 110 L 695 95 L 702 85" stroke="#4a9eff" stroke-width="1.5" fill="none"/>
+    
+    <!-- Nodes -->
+    <circle cx="640" cy="180" r="4" fill="#4a9eff"/>
+    <circle cx="630" cy="140" r="3.5" fill="#4a9eff"/>
+    <circle cx="610" cy="110" r="3" fill="#4a9eff"/>
+    <circle cx="590" cy="90" r="3" fill="#4a9eff"/>
+    <circle cx="580" cy="80" r="3.5" fill="#c9a84c"/>
+    
+    <circle cx="625" cy="95" r="3" fill="#4a9eff"/>
+    <circle cx="620" cy="70" r="3" fill="#4a9eff"/>
+    <circle cx="615" cy="55" r="3.5" fill="#c9a84c"/>
+    
+    <circle cx="645" cy="90" r="3" fill="#4a9eff"/>
+    <circle cx="650" cy="65" r="3" fill="#4a9eff"/>
+    <circle cx="652" cy="50" r="3.5" fill="#c9a84c"/>
+    
+    <circle cx="665" cy="95" r="3" fill="#4a9eff"/>
+    <circle cx="672" cy="75" r="3" fill="#4a9eff"/>
+    <circle cx="678" cy="60" r="3.5" fill="#c9a84c"/>
+    
+    <circle cx="685" cy="110" r="3" fill="#4a9eff"/>
+    <circle cx="695" cy="95" r="3" fill="#4a9eff"/>
+    <circle cx="702" cy="85" r="3.5" fill="#c9a84c"/>
+    
+    <!-- Bounding Box -->
+    <rect x="560" y="35" width="160" height="160" fill="none" stroke="#4a9eff" stroke-width="1" stroke-dasharray="4 4" opacity="0.6"/>
+  </g>
+
+  <!-- Left Content Info -->
+  <!-- District Badge -->
+  <rect x="36" y="32" width="130" height="24" rx="12" fill="#4a9eff" fill-opacity="0.15" stroke="#4a9eff" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="101" y="48" font-family="'Courier New', monospace" font-size="11" font-weight="700" fill="#4a9eff" text-anchor="middle" letter-spacing="1.5">🔬 AI LAB · 01</text>
+  
+  <!-- Project Title -->
+  <text x="36" y="94" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="800" fill="#e8e8e0" letter-spacing="0.5">SignSense</text>
+
+  <!-- Subtitle / Tagline -->
+  <text x="36" y="124" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="400" fill="#94a3b8">Real-Time Browser ASL Fingerspelling Classifier (28 Classes)</text>
+
+  <!-- Tech Pill Tags -->
+  <g transform="translate(36, 148)">
+    <rect width="78" height="22" rx="4" fill="#1e293b"/>
+    <text x="39" y="15" font-family="system-ui, sans-serif" font-size="11" fill="#cbd5e1" text-anchor="middle">Python</text>
+    
+    <rect x="86" width="114" height="22" rx="4" fill="#1e293b"/>
+    <text x="143" y="15" font-family="system-ui, sans-serif" font-size="11" fill="#4a9eff" text-anchor="middle">MediaPipe Hands</text>
+
+    <rect x="208" width="94" height="22" rx="4" fill="#1e293b"/>
+    <text x="255" y="15" font-family="system-ui, sans-serif" font-size="11" fill="#cbd5e1" text-anchor="middle">Vanilla JS Neural</text>
+    
+    <rect x="310" width="70" height="22" rx="4" fill="#1e293b"/>
+    <text x="345" y="15" font-family="system-ui, sans-serif" font-size="11" fill="#5ecca0" text-anchor="middle">● Active</text>
+  </g>
+  
+  <!-- Subtle Underline Gradient Accent -->
+  <rect x="36" y="194" width="728" height="2" fill="url(#ss-glow)"/>
+</svg>

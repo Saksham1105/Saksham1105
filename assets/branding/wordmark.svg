@@ -1,1 +1,23 @@
-PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MjAgNTIiIHdpZHRoPSI0MjAiIGhlaWdodD0iNTIiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJ3bS1ncmFkIiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMCI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNjOWE4NGMiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiNlOGU4ZTAiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjNmRiM2ZmIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8IS0tIERlY29yYXRpdmUgbGVmdCBtYXJrIC0tPgogIDxyZWN0IHg9IjAiIHk9IjIyIiB3aWR0aD0iMjgiIGhlaWdodD0iMiIgZmlsbD0iI2M5YTg0YyIgb3BhY2l0eT0iMC42Ii8+CiAgPHJlY3QgeD0iMCIgeT0iMjYiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxIiBmaWxsPSIjYzlhODRjIiBvcGFjaXR5PSIwLjQiLz4KICA8IS0tIFNBS1NIQU0gLS0+CiAgPHRleHQgeD0iMzgiIHk9IjM2IiBmb250LWZhbWlseT0iJ0NvdXJpZXIgTmV3JywgQ291cmllciwgbW9ub3NwYWNlIiBmb250LXNpemU9IjIyIiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZThlOGUwIiBsZXR0ZXItc3BhY2luZz0iOCI+U0FLU0hBTTwvdGV4dD4KICA8IS0tIFNlcGFyYXRvciBkb3QgLS0+CiAgPGNpcmNsZSBjeD0iMjI4IiBjeT0iMjciIHI9IjIuNSIgZmlsbD0iI2M5YTg0YyIvPgogIDwhLS0gV09STEQgLS0+CiAgPHRleHQgeD0iMjM4IiB5PSIzNiIgZm9udC1mYW1pbHk9IidDb3VyaWVyIE5ldycsIENvdXJpZXIsIG1vbm9zcGFjZSIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjQwMCIgZmlsbD0iI2M5YTg0YyIgbGV0dGVyLXNwYWNpbmc9IjgiPldPUkxEPC90ZXh0PgogIDwhLS0gRGVjb3JhdGl2ZSByaWdodCBtYXJrIC0tPgogIDxyZWN0IHg9IjM5MiIgeT0iMjIiIHdpZHRoPSIyOCIgaGVpZ2h0PSIyIiBmaWxsPSIjNmRiM2ZmIiBvcGFjaXR5PSIwLjYiLz4KICA8cmVjdCB4PSI0MDQiIHk9IjI2IiB3aWR0aD0iMTYiIGhlaWdodD0iMSIgZmlsbD0iIzZkYjNmZiIgb3BhY2l0eT0iMC40Ii8+CiAgPCEtLSBVbmRlcmxpbmUgLS0+CiAgPHJlY3QgeD0iMzgiIHk9IjQyIiB3aWR0aD0iMzQ4IiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjd20tZ3JhZCkiIG9wYWNpdHk9IjAuMzUiLz4KPC9zdmc+Cg==
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 52" width="420" height="52">
+  <defs>
+    <linearGradient id="wm-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c9a84c"/>
+      <stop offset="50%" stop-color="#e8e8e0"/>
+      <stop offset="100%" stop-color="#6db3ff"/>
+    </linearGradient>
+  </defs>
+  <!-- Decorative left mark -->
+  <rect x="0" y="22" width="28" height="2" fill="#c9a84c" opacity="0.6"/>
+  <rect x="0" y="26" width="16" height="1" fill="#c9a84c" opacity="0.4"/>
+  <!-- SAKSHAM -->
+  <text x="38" y="36" font-family="'Courier New', Courier, monospace" font-size="22" font-weight="700" fill="#e8e8e0" letter-spacing="8">SAKSHAM</text>
+  <!-- Separator dot -->
+  <circle cx="228" cy="27" r="2.5" fill="#c9a84c"/>
+  <!-- WORLD -->
+  <text x="238" y="36" font-family="'Courier New', Courier, monospace" font-size="22" font-weight="400" fill="#c9a84c" letter-spacing="8">WORLD</text>
+  <!-- Decorative right mark -->
+  <rect x="392" y="22" width="28" height="2" fill="#6db3ff" opacity="0.6"/>
+  <rect x="404" y="26" width="16" height="1" fill="#6db3ff" opacity="0.4"/>
+  <!-- Underline -->
+  <rect x="38" y="42" width="348" height="1" fill="url(#wm-grad)" opacity="0.35"/>
+</svg>
