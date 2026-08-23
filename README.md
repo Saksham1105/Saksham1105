@@ -1,1 +1,225 @@
-PHBpY3R1cmU+CiAgPHNvdXJjZSBtZWRpYT0iKHByZWZlcnMtY29sb3Itc2NoZW1lOiBsaWdodCkiIHNyY3NldD0iaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1Nha3NoYW0xMTA1L1Nha3NoYW0xMTA1L2ZlYXQvc2Frc2hhbS13b3JsZC1mb3VuZGF0aW9uL2Fzc2V0cy93b3JsZC9zYWtzaGFtLXdvcmxkLWxpZ2h0LmpwZyI+CiAgPGltZyBzcmM9Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9TYWtzaGFtMTEwNS9TYWtzaGFtMTEwNS9mZWF0L3Nha3NoYW0td29ybGQtZm91bmRhdGlvbi9hc3NldHMvd29ybGQvc2Frc2hhbS13b3JsZC1kYXJrLmpwZyIgYWx0PSJTS1NIQU0gV09STEQg4oCUIEFuIGlsbHVzdHJhdGVkIGVuZ2luZWVyaW5nIHVuaXZlcnNlIiB3aWR0aD0iMTAwJSI+CjwvcGljdHVyZT4KCjxkaXYgYWxpZ249ImNlbnRlciI+Cgo8YnIvPgoKPGltZyBzcmM9Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9TYWtzaGFtMTEwNS9TYWtzaGFtMTEwNS9mZWF0L3Nha3NoYW0td29ybGQtZm91bmRhdGlvbi9hc3NldHMvYnJhbmRpbmcvd29yZG1hcmsuc3ZnIiBhbHQ9IlNBS1NIQU0gV09STEQiIHdpZHRoPSI0MjAiLz4KCjxici8+CgoqKmBBSSDeXSBTT0ZUV0FSRSA24pWuIERFU0lHTmAqKgoKKkV2ZXJ5dGhpbmcgaGVyZSB3YXMgYnVpbHQsIGJyb2tlbiwgbGVhcm5lZCwgb3IgcmVidWlsdC4qCgo8YnIvPgoKWyFbQUkgTEFCXSgjLWFpLWxhYi0tc2lnbnNlbnNlKV0oaHR0cHM6Ly9naXRodWIuY29tL1Nha3NoYW0xMTA1L1Nha3NoYW0xMTA1I2FpLWxhYi0tc2lnbnNlbnNlKQombmJzcDsmbmJzcDtgwrdgJm5ic3A7Jm5ic3A7CltdKFdFQiBDSVRZKSgjLXdlYi1jaXR5LS1wZWhuYXZhLXJqMDEtLS10aGUtb3Blbi1zeWxsYWJ1cyldKGh0dHBzOi8vZ2l0aHViLmNvbS9TYWtzaGFtMTEwNS9TYWtzaGFtMTEwNSN3ZWItY2l0eS0tcGVobmF2YS1yajAxLS0tdGhlLW9wZW4tc3lsbGFidXMpCiZuYnNwOyZuYnNwO2DCtydgJm5ic3A7Jm5ic3A7CltdKE1PQklMRSBESVNUUklDVCkoIy1tb2JpbGUtZGlzdHJpY3QpXShodHRwczovL2dpdGh1Yi5jb20vU2Frc2hhbTExMDUvU2Frc2hhbTExMDUjbW9iaWxlLWRpc3RyaWN0KQombmJzcDsmbmJzcDtgwrdgJm5ic3A7Jm5ic3A7CltdKEVYUEVSSU1FTlRTKSgjLWV4cGVyaW1lbnQtZm9yZXN0KV0oaHR0cHM6Ly9naXRodWIuY29tL1Nha3NoYW0xMTA1L1Nha3NoYW0xMTA1I2V4cGVyaW1lbnQtZm9yZXN0KQoKPC9kaXY+Cgo8YnIvPgoKLS0tCgojIyDil4ggQUNUSVZFIEJVSUxEUwoKKlRoZSB0aHJlZSBzdHJvbmdlc3QgcHVibGljIHByb2plY3RzIGN1cnJlbnRseSBpbiB0aGUgd29ybGQuKgoKPGJyLz4KCiMjIyDwn5SsIEFJIExBQiAtLSBTaWduU2Vuc2UKCj4gKkJyb3dzZXItYmFzZWQgQVNMIGZpbmdlcnNwZWxsaW5nIGNsYXNzaWZpZXIgcmVjb2duaXppbmcgMjggc3RhdGljIGdlc3R1cmUgY2xhc3NlcyBmcm9tIEEtWiBwbHVzIFNQQUNFLCBERUxFVEUgYW5kIE5PVEhJTkcuIE1lZGlhUGlwZSBIYW5kcyBleHRyYWN0cyAyMSBoYW5kIGxhbmRtYXJrcyBwZXIgZnJhbWU7IGEgY29tcGFjdCBmdWxseS1jb25uZWN0ZWQgbmV1cmFsIG5ldHdvcmsgcnVucyBjbGFzc2lmaWNhdGlvbiBlbnRpcmVseSBpbiB0aGUgYnJvd3NlciB3aXRoIG5vIGJhY2tlbmQgcmVxdWlyZWQuKgoKfCB8IHwKfC0tLXwtLS18CnwgKipTdGFjayoqIHwgUHl0aG9uIMK3IE1lZGlhUGlwZSBIYW5kcyDCtyBWYW5pbGxhIEpTIMK3IFdlYiBTcGVlY2ggQVBJIHwKfCAqKkluZmVyZW5jZSoqIHwgUnVucyBsb2NhbGx5IGluLWJyb3dzZXIg4oCUIE5vIHNlcnZlciwgbm8gYXV0aCwgbm8gZGF0YWJhc2UgfAp8ICoqTW9kZWwqKiB8IDYzLWlucHV0IOKGkiBEZW5zZSAxMjggLS0+IERlbnNlIDY0IC0tPiBEZW5zZSAyOCAoU29mdG1heCkgfAp8ICoqU3RhdHVzKiogfCBg4pePIEFDVElWRWAgfAoKPGRpdiBhbGlnbj0iY2VudGVyIj4KCltg4peIIFZpZXcgUmVwb3NpdG9yeWBdKGh0dHBzOi8vZ2l0aHViLmNvbS9TYWtzaGFtMTEwNS9TaWduU2Vuc2UpJm5ic3A7Jm5ic3A7Jm5ic3A7W2DilrUgT3BlbiBMaXZlIERlbW9gXShodHRwczovL3NpZ24tc2Vuc2Utc2l4LnZlcmNlbC5hcHAvKQoKPC9kaXY+Cgo8YnIvPgoKLS0tCgojIyMg8J+PmSBXRUIgQ0lUWSAtLSBQZWhuYXZhIFJKMDEKCj4gKlByZW1pdW0gaW5mb3JtYXRpb25hbCBmYXNoaW9uIGJvdXRpcXVlIHdlYnNpdGUuIFNob3djYXNlcyBkZXNpZ25lciBjb2xsZWN0aW9ucyB3aXRoIGEgcG9saXNoZWQgZWRpdG9yaWFsIGludGVyZmFjZS4gQnVpbHQgd2l0aCB0aGUgTUVBTiBzdGFjayAtLS0gQW5ndWxhciBvbiB0aGUgZnJvbnRlbmQsIE5vZGUuanMgKyBFeHByZXNzIG9uIHRoZSBzZXJ2ZXIsIGFuZCBNb25nb0RCIGZvciB0aGUgZGF0YSBsYXllci4qCgp8IHwgfAp8LS0tfC0tLXwKfCAqKlN0YWNrKiogfCBBbmd1bGFyIMK3IE5vZGUuanMgwrcgRXhwcmVzcyDCtyBNb25nb0RCIHwKfCAqKlR5cGUqKiB8IFByZW1pdW0gaW5mb3JtYXRpb25hbCBib3V0aXF1ZSB3ZWJzaXRlIHwKfCAqKlN0YXR1cyoqIHwgYOKXjiBMSVZFYCB8Cgo8ZGl2IGFsaWduPSJjZW50ZXIiPgoKW2Dil4ggVmlldyBSZXBvc2l0b3J5YF0oaHR0cHM6Ly9naXRodWIuY29tL1Nha3NoYW0xMTA1L1BlaG5hdmEtLS1NZWFuLVN0YWNrKSZuYnNwOyZuYnNwOyZuYnNwO1tg4pa1IFZpc2l0IFBlaG5hdmFgXShodHRwczovL3BlaG5hdmEubWF6cmlrLmluLykKCjwvZGl2PgoKPGJyLz4KCi0tLQoKIyMjIPCfkosgV0VCIENJVFkgLS0gVGhlIE9wZW4gU3lsbGFidXMKCj4gKlN0dWRlbnQtZm9jdXNlZCBjb3Vyc2UtcmVzb3VyY2UgYW5kIGRpc2N1c3Npb24gcGxhdGZvcm0gd2l0aCBvcHRpb25hbCBHZW1pbmktcG93ZXJlZCBBSSBhc3Npc3RhbmNlLiBCcmluZ3MgdG9nZXRoZXIgY291cnNlIGRpc2NvdmVyeSwgYWNhZGVtaWMgZGlzY3Vzc2lvbnMsIHBlZXIgaW50ZXJhY3Rpb24sIHNvY2lhbCBmZWF0dXJlcywgZGFyayBtb2RlLCBhIGRpc3RyYWN0aW9uLXJlZHVjZWQgc3R1ZHkgbW9kZSwgYW5kIGFuIG9wdGlvbmFsIEdlbWluaS1wb3dlcmVkIEFJIGFzc2lzdGFudCBpbnRvIG9uZSBjb2hlcmVudCB3ZWIgYXBwbGljYXRpb24uKgoKfCB8IHwKfC0tLXwtLS18CnwgKipTdGFjayoqIHwgUmVhY3QgMTkgwrcgVml0ZSDCtyBGaXJlYmFzZSDCtyBGaXJlc3RvcmUgwrcgR2VtaW5pIEFQSSDCtyBFeHByZXNzIHwKfCAqKlR5cGUqKiB8IEFjYWRlbWljIHJlc291cmNlICsgZGlzY3Vzc2lvbiBwbGF0Zm9ybSB8CnwgKipTdGF0dXMqKiB8IGDil48gSU4gREVWRUxPUE1FTlRgIHwKCjxkaXYgYWxpZ249ImNlbnRlciI+CgpbYOKXiCBWaWV3IFJlcG9zaXRvcnlgXShodHRwczovL2dpdGh1Yi5jb20vU2Frc2hhbTExMDUvVGhlLU9wZW4tU3lsbGFidXMpCgo8L2Rpdj4KCjxici8+CgotLS0KCiMjIOKXiCBFTkdJTkVFUklORyBKT1VSTkVZCgpgYGAKICAyMDIzICAg4pSkICBGb3VuZGF0aW9ucwogICAgICAgICDilIIgIEMgLyBDKysgLyBQeXRob24gwrcgRGF0YSBzdHJ1Y3R1cmVzIMK3IEFsZ29yaXRobXMKICAgICAgICAg4pSCICBGaXJzdCBwcm9ncmFtcy4gRmlyc3QgYnVncy4gRmlyc3QgZml4ZXMuCiAgICAgICAgIOKUggogIDIwMjQgICDilKQgIFNvZnR3YXJlIERldmVsb3BtZW50CiAgICAgICAgIOKUgiAgRnVsbC1zdGFjayB3ZWIgwrcgQW5ndWxhciDCtyBOb2RlIMK3IE1vbmdvREIKICAgICAgICAg4pSCICBCdWlsZGluZyByZWFsIGFwcGxpY2F0aW9ucy4gU2hpcHBpbmcgY29kZS4KICAgICAgICAg4pSCCiAgMjAyNSAgIOKUpCAgQUkgLyBNTCArIFByb2R1Y3QgQnVpbGRpbmcKICAgICAgICAg4pSCICBNZWRpYVBpcGUgwrcgTmV1cmFsIG5ldHdvcmtzIMK3IEZpcmViYXNlIMK3IFJlYWN0CiAgICAgICAgIOKUgiAgU2lnblNlbnNlIMK3IFBlaG5hdmEgwrcgVGhlIE9wZW4gU3lsbGFidXMKICAgICAgICAg4pSCCiAgMjAyNiAgIOKUpCAgQUkgSW50ZWdyYXRpb24gKyBGdWxsLVN0YWNrIEVuZ2luZWVyaW5nCiAgICAgICAgIOKUgiAgR2VtaW5pIEFQSSDCtyBQcm9kdWN0aW9uIHN5c3RlbXMgwrcgRGVzaWduCiAgICAgICAgIOKUgiAgTWFraW5nIEFJIGFjdHVhbGx5IHVzZWZ1bCBpbiBwcm9kdWN0cy4KICAgICAgICAg4pSCCiAgTk9XICAgIOKUpCAgU3RpbGwgYnVpbGRpbmcuCiAgICAgICAgIOKUgiAg4paOCmBgYAoKPGJyLz4KCi0tLQoKIyMg4peIIFRFQ0ggQ09OU1RFTExBVElPTgoKYGBgCgogICAgICAgICAgICAgICAgICAgICAgICBQWVRIT04KICAgICAgICAgICAgICAgICAgICAgICAgICAg4pymCiAgICAgICAgICAgICAgICAgICAgICAgICAgL3xcCiAgICAgICAgICAgICAgICAgICAgICAgICAvIHwgXAogICAgICAgICAgICAgICAgQUkvTUwg4pymICB8ICDinKYgVFlQRVNDUklQVAogICAgICAgICAgICAgICAgICAgICAgICAgXHwvCiAgICAgICAgICAgICAgICAgICDilIDilIDilAAgU0FLU0hBTSAK4pSA4pSA4pSACiAgICAgICAgICAgICAgICAgICAgICAgICAvfFwKICAgICAgICAgICAgICAgICAgICAgICAgLyB8IFwKICAgICAgICAgICAgICAgUkVBQ1Qg4pymICB8ICDinKYgTk9ERS5KUwogICAgICAgICAgICAgICAgICAgICAgICBcfC8KICAgICAgICAgICAgICAgICAgICAgICBGSVJFQkFTRQogICAgICAgICAgICAgICAgICAgICAgICAgICAg4pymCiAgICAgICAgICAgICAgICAgICAgICAgICAgLyBcCiAgICAgICAgICBNT05HT0RCIOKcpiAgICAgICAgIOKcpiBHRU1JTkkgQVBJCgpgYGAKCjxici8+Cgo8ZGl2IGFsaWduPSJjZW50ZXIiPgoKfCBEb21haW4gfCBUZWNobm9sb2dpZXMgfAp8LS0tfC0tLXwKfCAqKkFJIC8gTUwqKiB8IFB5dGhvbiDCtyBNZWRpYVBpcGUgwrcgTnVtUHkgwrcgVGVuc29yRmxvdyAodHJhaW5pbmcpIMK3IEN1c3RvbSBKUyBpbmZlcmVuY2UgfAp8ICoqRnJvbnRlbmQqKiB8IEFuZ3VsYXIgwrcgUmVhY3QgMTkgwrcgVml0ZSDCtyBUYWlsd2luZCBDU1MgwrcgVmFuaWxsYSBKUyB8CnwgKipCYWNrZW5kKiogfCBOb2RlLmpzIMK3IEV4cHJlc3MgwrcgUkVTVCBBUElzIHwKfCAqKkRhdGEqKiB8IE1vbmdvREIgwrcgRmlyZWJhc2UgwrcgRmlyZXN0b3JlIHwKfCAqKkFJIEludGVncmF0aW9ucyoqIHwgR29vZ2xlIEdlbWluaSBBUEkgwrcgV2ViIFNwZWVjaCBBUEkgfAp8ICoqVG9vbHMqKiB8IEdpdCDCtyBWUyBDb2RlIMK3IFZlcmNlbCB8Cgo8L2Rpdj4KCjxici8+CgotLS0KCiMjIOKXiCBDVVJSRU5UIEZPQ1VTCgotIEJ1aWxkaW5nIEFJLXBvd2VyZWQgcHJvZHVjdHMgdGhhdCBhcmUgYWN0dWFsbHkgdXNhYmxlIGJ5IHJlYWwgcGVvcGxlCi0gRGVlcGVuaW5nIGZ1bGwtc3RhY2sgZW5naW5lZXJpbmcg4oCUIGZyb20gZGF0YSBsYXllciB0byBpbnRlcmZhY2UKLSBTdHJlbmd0aGVuaW5nIERTQSBhbmQgc3lzdGVtcyBmdW5kYW1lbnRhbHMKLSBMZWFybmluZyBob3cgdG8gbWFrZSBkZXNpZ24gZGVjaXNpb25zLCBub3QganVzdCBpbXBsZW1lbnRhdGlvbiBkZWNpc2lvbnMKLSAqRmluaXNoaW5nIHRoaW5ncy4qCgo8YnIvPgoKLS0tCgojIyDil4ggR0lUSFVCIFNJR05BTAoKPGRpdiBhbGlnbj0iY2VudGVyIj4KCjxpbWcgc3JjPSJodHRwczovL2dpdGh1Yi1yZWFkbWUtYWN0aXZpdHktZ3JhcGgudmVyY2VsLmFwcC9ncmFwaD91c2VybmFtZT1TYWtzaGFtMTEwNSZiZ19jb2xvcj0wZDExMTcmY29sb3I9NGE5ZWZmJmxpbmU9YzlhODRjJnBvaW50PWU4ZThlMCZhcmVhPXRydWUmaGlkZV9ib3JkZXI9dHJ1ZSIgd2lkdGg9IjEwMCUiIGFsdD0iQ29udHJpYnV0aW9uIGFjdGl2aXR5Ii8+Cgo8YnIvPjxici8+Cgo8aW1nIHNyYz0iaHR0cHM6Ly9naXRodWItcmVhZG1lLXN0YXRzLnZlcmNlbC5hcHAvYXBpP3VzZXJuYW1lPVNha3NoYW0xMTA1JnNob3dfaWNvbnM9dHJ1ZSZ0aGVtZT1naXRodWJfZGFyayZoaWRlX2JvcmRlcj10cnVlJmJnX2NvbG9yPTBkMTExNyZ0aXRsZV9jb2xvcj1jOWE4NGMmaWNvbl9jb2xvcj00YTllZmYmdGV4dF9jb2xvcj1lOGU4ZTAmaGlkZV9yYW5rPWZhbHNlIiB3aWR0aD0iNDglIiBhbHQ9IkdpdEh1YiBTdGF0cyIvPgombmJzcDsKPGltZyBzcmM9Imh0dHBzOi8vZ2l0aHViLXJlYWRtZS1zdGF0cy52ZXJjZWwuYXBwL2FwaS90b3AtbGFuZ3MvP3VzZXJuYW1lPVNha3NoYW0xMTA1JmxheW91dD1jb21wYWN0JnRoZW1lPWdpdGh1Yl9kYXJrJmhpZGVfYm9yZGVyPXRydWUmYmdfY29sb3I9MGQxMTE3JnRpdGxlX2NvbG9yPWM5YTg0YyZ0ZXh0X2NvbG9yPWU4ZThlMCIgd2lkdGg9IjQ4JSIgYWx0PSJUb3AgTGFuZ3VhZ2VzIi8+Cgo8L2Rpdj4KCjxici8+CgotLS0KCiMjIOKXiCBESVNUUklDVFMKCjxkZXRhaWxzPgo8c3VtbWFyeT48c3Ryb25nPvCfkKwgQUkgTEFCIOKAlCBTaWduU2Vuc2U8L3N0cm9uZz48L3N1bW1hcnk+Cjxici8+CgpUaGUgQUkgTGFiIGlzIHdoZXJlIG1hY2hpbmUgbGVhcm5pbmcgbWVldHMgcmVhbC13b3JsZCBhcHBsaWNhdGlvbi4KCioqU2lnblNlbnNlKiogZGVtb25zdHJhdGVzIGEgY29tcGxldGUgTUwgcGlwZWxpbmU6IGRhdGEgY29sbGVjdGlvbiDihpIgbW9kZWwgdHJhaW5pbmcg4oaSIGJyb3dzZXItYmFzZWQgaW5mZXJlbmNlLiBUaGUgdHJhaW5pbmcgcGlwZWxpbmUgaXMgd3JpdHRlbiBpbiBQeXRob24gd2l0aCBNZWRpYVBpcGUgYW5kIGEgY29tcGFjdCBUZW5zb3JGbG93IG1vZGVsLiBUaGUgYnJvd3NlciBpbmZlcmVuY2UgcnVucyBhIGN1c3RvbSBKYXZhU2NyaXB0IG5ldXJhbC1uZXR3b3JrIGltcGxlbWVudGF0aW9uIOKAlCBubyBURi5qcyBkZXBlbmRlbmN5LiBUaGUgcmVzdWx0IGlzIGEgZmFzdCwgbG9jYWwsIHByaXZhY3ktcHJlc2VydmluZyBBU0wgZmluZ2Vyc3BlbGxpbmcgdG9vbC4KCkN1cnJlbnQgbW9kZWwgc2NvcGU6ICoqMjggc3RhdGljIGdlc3R1cmUgY2xhc3NlcyoqIChB4oCTWiArIFNQQUNFICsgREVMRVRFICsgTk9USElORykuIER5bmFtaWMgQVNMIHNpZ25zLCBmdWxsIHNlbnRlbmNlIGdyYW1tYXIsIGFuZCBgSmAgYXJlIG91dHNpZGUgY3VycmVudCBzY29wZS4KCuKGkiBbUmVwb3NpdG9yeV0oaHR0cHM6Ly9naXRodWIuY29tL1Nha3NoYW0xMTA1L1NpZ25TZW5zZSkgwrcgW0xpdmVdKGh0dHBzOi8vc2lnbi1zZW5zZS1zaXgudmVyY2VsLmFwcC8pCgo8L2RldGFpbHM+Cgo8ZGV0YWlscz4KPHN1bW1hcnk+PHN0cm9uZz7wn4+ZIFBFSB0IENJVFkg4oCUIFBlaG5hdmEgUkowMSDCtyBUaGUgT3BlbiBTeWxsYWJ1czwvc3Ryb25nPjwvc3VtbWFyeT4KPGJyLz4KCldlYiBDaXR5IGlzIHdoZXJlIHByb2R1Y3RzIHRha2Ugc2hhcGUuCgoqKlBlaG5hdmEgUkowMSoqIGlzIGEgcHJlbWl1bSBmYXNoaW9uIGJvdXRpcXVlIHdlYnNpdGUuIFRoZSBkZXNpZ24gbGFuZ3VhZ2UgaXMgZWRpdG9yaWFsIGFuZCByZXN0cmFpbmVkIOKAlCBidWlsdCB0byByZXByZXNlbnQgdGhlIGJvdXRpcXVlIGJyYW5kIHJhdGhlciB0aGFuIHNlcnZlIGFzIGEgZ2VuZXJpYyBlLWNvbW1lcmNlIHRlbXBsYXRlLiBNRUFOIHN0YWNrIHRocm91Z2hvdXQuCgoqKlRoZSBPcGVuIFN5bGxhYnVzKiogdGFja2xlcyBhIHJlYWwgc3R1ZGVudCBwcm9ibGVtOiBjb3Vyc2UgcmVzb3VyY2VzIGFyZSBzY2F0dGVyZWQsIGRpc2N1c3Npb25zIGFyZSBmcmFnbWVudGVkLCBhbmQgZ2V0dGluZyBoZWxwIGlzIHNsb3cuIEl0IGNvbnNvbGlkYXRlcyByZXNvdXJjZXMsIGRpc2N1c3Npb25zLCBwZWVyIGludGVyYWN0aW9uLCBhbmQgYW4gb3B0aW9uYWwgQUkgc3R1ZHkgYXNzaXN0YW50IGludG8gb25lIHBsYXRmb3JtLiBGaXJlYmFzZSBoYW5kbGVzIGF1dGggYW5kIGRhdGE7IEdlbWluaSBBUEkgcG93ZXJzIHRoZSBBSSBoZWxwZXIuCgrihpIgUGVobmF2YTogW1JlcG9zaXRvcnldKGh0dHBzOi8vZ2l0aHViLmNvbS9TYWtzaGFtMTEwNS9QZWhuYXZhLS0tTWVhbi1TdGFjaykgwrcgW0xpdmVdKGh0dHBzOi8vcGVobmF2YS5tYXpyaWsuaW4vKQrihpIgT3BlbiBTeWxsYWJ1czogW1JlcG9zaXRvcnldKGh0dHBzOi8vZ2l0aHViLmNvbS9TYWtzaGFtMTEwNS9UaGUtT3Blbi1TeWxsYWJ1cykKCjwvZGV0YWlscz4KCjxkZXRhaWxzPgo8c3VtbWFyeT48c3Ryb25nPvCfk7EgTU9CSUxFIERJU1RSSUNUIOKAlCBJbnRlcm5hbCBQcm9qZWN0czwvc3Ryb25nPjwvc3VtbWFyeT4KPGJyLz4KClRoZSBNb2JpbGUgRGlzdHJpY3QgaG91c2VzIHByb2plY3RzIGJ1aWx0IGZvciBBbmRyb2lkLgoKKipHeW1Qcm8qKiDihpQgYFsgUFJJVkFURSDCtyBJTlRFUk5BTCBdYCBBIG1vYmlsZSBmaXRuZXNzIGFwcGxpY2F0aW9uLiBOb3QgY3VycmVudGx5IHB1YmxpYy4KCjwvZGV0YWlscz4KCjxkZXRhaWxzPgo8c3VtbWFyeT48c3Ryb25nPvCfjLIgRVhQRVJJTUVOVCBGT1JFU1Qg4oCUIENvdXJzZXdvcmsgwrcgUHJvdG90eXBlczwvc3Ryb25nPjwvc3VtbWFyeT4KPGJyLz4KClRoZSBFeHBlcmltZW50IEZvcmVzdCBpcyB3aGVyZSB0aGluZ3MgZ2V0IHRyaWVkLCBicm9rZW4sIGFuZCBsZWFybmVkIGZyb20uCgpUaGlzIHJlZ2lvbiBob2xkczoKLSBDIC8gQysrIHByb2dyYW1taW5nIGZ1bmRhbWVudGFscwotIE9wZXJhdGluZyBTeXN0ZW1zIHByb2dyYW1zCi0gQ29tcGlsZXIgRGVzaWduIGFzc2lnbm1lbnRzCi0gRGVzaWduICYgQWxnb3JpdGhtcyBjb3Vyc2V3b3JrCi0gUHJvamVjdCBNYW5hZ2VtZW50IERhc2hib2FyZAotIFNtYWxsIGV4cGVyaW1lbnRzIHRoYXQgbWF5IChvciBtYXkgbm90KSBncm93IGludG8gc29tZXRoaW5nCgpUaGVzZSBhcmUgdGhlIGZvdW5kYXRpb24g4oCUIE5vdCBmbGFnc2hpcCBwcm9kdWN0cywgYnV0IHRoZSBncm91bmQgdGhlIHdvcmxkIHdhcyBidWlsdCBvbi4KCjwvZGV0YWlscz4KCjxkZXRhaWxzPgo8c3VtbWFyeT48c3Ryb25nPvCflJIgUFJJVkFURSBXSU5HIOKAlCBSZXN0cmljdGVkIEFjY2Vzczwvc3Ryb25nPjwvc3VtbWFyeT4KPGJyLz4KClNvbWUgZmFjaWxpdGllcyBpbiB0aGUgd29ybGQgYXJlIGN1cnJlbnRseSByZXN0cmljdGVkLgoKYFsgTkFNTy1XRUJTSVRFIMK3IFBSSVZBVEUgXWAKYFsgQUktQUdFTkNZLVBPUlRGT0xJTyDCtyBQUklWQVRFIF1gCgo8L2RldGFpbHM+Cgo8YnIvPgoKLS0tCgojIyDil4ggQ09OVEFDVAoKPGRpdiBhbGlnbj0iY2VudGVyIj4KCltgR2l0SHViIOKGkiBAU2Frc2hhbTExMDVgXShodHRwczovL2dpdGh1Yi5jb20vU2Frc2hhbTExMDUpCgo8L2Rpdj4KCjxici8+CgotLS0KCjxkaXYgYWxpZ249ImNlbnRlciI+Cgo8c3ViPlNBS1NIQU0gV09STEQgJm5ic3A7wrcmbmJzcDsgc3RpbGwgYnVpbGRpbmcgJm5ic3A7wrcmbmJzcDsgZXZlcnl0aGluZyBoZXJlIHdhcyBidWlsdCwgYnJva2VuLCBsZWFybmVkLCBvciByZWJ1aWx0PC9zdWI+Cgo8L2Rpdj4K
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/world/saksham-world-dark.jpg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/world/saksham-world-light.jpg">
+  <img src="assets/world/saksham-world-dark.jpg" alt="SAKSHAM WORLD — An illustrated engineering universe" width="100%">
+</picture>
+
+<div align="center">
+
+<br/>
+
+<img src="assets/branding/wordmark.svg" alt="SAKSHAM WORLD" width="420"/>
+
+<br/><br/>
+
+**`AI × SOFTWARE × DESIGN`**
+
+<br/>
+
+*Everything here was built, broken, learned, or rebuilt.*
+
+<br/>
+
+[ **AI LAB** ](#-ai-lab) &nbsp;·&nbsp; [ **WEB CITY** ](#-web-city) &nbsp;·&nbsp; [ **MOBILE DISTRICT** ](#-mobile-district) &nbsp;·&nbsp; [ **EXPERIMENTS** ](#-experiment-forest)
+
+</div>
+
+<br/>
+
+---
+
+## ◈ ACTIVE BUILDS
+
+*Three flagship public projects currently in the world.*
+
+<br/>
+
+### 🔬 SignSense
+
+Browser-based ASL fingerspelling classifier recognizing 28 static gesture classes from A–Z plus SPACE, DELETE, and NOTHING. Runs entirely in the browser using MediaPipe Hands for 21 hand landmarks and a custom lightweight neural network for zero-backend inference.
+
+**Stack:** Python · MediaPipe Hands · Vanilla JS · Web Speech API  
+**Status:** `● ACTIVE`
+
+[ **`◈ View Repository`** ](https://github.com/Saksham1105/SignSense) &nbsp;&nbsp;&nbsp;&nbsp; [ **`▶ Open Live Demo`** ](https://sign-sense-six.vercel.app/)
+
+<br/>
+
+---
+
+### 🏙 Pehnava RJ01
+
+Premium informational fashion boutique website showcasing designer collections with a refined, editorial interface. Built on the MEAN stack with Angular frontend, Node.js and Express backend, and MongoDB data layer.
+
+**Stack:** Angular · Node.js · Express · MongoDB  
+**Status:** `● LIVE`
+
+[ **`◈ View Repository`** ](https://github.com/Saksham1105/Pehnava---Mean-Stack) &nbsp;&nbsp;&nbsp;&nbsp; [ **`▶ Visit Pehnava`** ](https://pehnava.mazrik.in/)
+
+<br/>
+
+---
+
+### 📚 The Open Syllabus
+
+Student-focused course-resource and discussion platform consolidating resource discovery, academic discussions, peer interaction, study mode, and an optional Gemini-powered AI study assistant into one unified web application.
+
+**Stack:** React 19 · Vite · Firebase · Firestore · Gemini API · Express  
+**Status:** `● IN DEVELOPMENT`
+
+[ **`◈ View Repository`** ](https://github.com/Saksham1105/The-Open-Syllabus)
+
+<br/>
+
+---
+
+## ◈ ENGINEERING JOURNEY
+
+```
+  2023 ── Foundations · C / C++ / Python · Data structures & algorithms
+  2024 ── Software Development · Full-stack web · Angular, Node & MongoDB
+  2025 ── AI / ML & Product Building · MediaPipe, React & Firebase
+  2026 ── AI Integration & Full-Stack · Gemini API, production systems & design
+  NOW  ── Still building.
+```
+
+<br/>
+
+---
+
+## ◈ TECH CONSTELLATION
+
+```
+
+                        PYTHON
+                           ✦
+                          /|\
+                         / | \
+                AI/ML ✦  |  ✦ TYPESCRIPT
+                         \|/
+                    ─── SAKSHAM ───
+                         /|\
+                        / | \
+               REACT ✦  |  ✦ NODE.JS
+                        \|/
+                       FIREBASE
+                           ✦
+                          / \
+              MONGODB ✦       ✦ GEMINI API
+
+```
+
+<br/>
+
+<div align="center">
+
+| Domain | Technologies |
+|---|---|
+| **AI / ML** | Python · MediaPipe · NumPy · Custom JS inference |
+| **Frontend** | Angular · React 19 · Vite · Vanilla JS |
+| **Backend** | Node.js · Express |
+| **Data & Cloud** | MongoDB · Firebase · Firestore · Vercel |
+| **AI Integrations** | Google Gemini API · Web Speech API |
+| **Tooling** | Git |
+
+</div>
+
+<br/>
+
+---
+
+## ◈ CURRENT FOCUS
+
+- Building AI-powered products that are actually usable by real people
+- Deepening full-stack engineering — from data layer to interface
+- Strengthening DSA and systems fundamentals
+- Finishing things
+
+<br/>
+
+---
+
+## ◈ GITHUB SIGNAL
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Saksham1105&bg_color=0d1117&color=4a9eff&line=c9a84c&point=e8e8e0&area=true&hide_border=true" width="100%" alt="Contribution activity"/>
+
+</div>
+
+<br/>
+
+---
+
+## ◈ DISTRICTS
+
+<details>
+<summary><strong>🔬 AI LAB — SignSense</strong></summary>
+<br/>
+
+The AI Lab houses research and computer vision work. **SignSense** demonstrates a complete local ML pipeline: Python data collection and model training, exported to a custom JavaScript in-browser neural network. Recognizes 28 static gesture classes (A–Z, SPACE, DELETE, NOTHING) with no server backend required.
+
+→ [Repository](https://github.com/Saksham1105/SignSense) · [Live Demo](https://sign-sense-six.vercel.app/)
+
+</details>
+
+<details>
+<summary><strong>🏙 WEB CITY — Pehnava RJ01 & The Open Syllabus</strong></summary>
+<br/>
+
+Web City represents product and full-stack engineering. **Pehnava RJ01** is a MEAN-stack boutique website built with an editorial aesthetic. **The Open Syllabus** consolidates course materials, discussions, and study tools with a Gemini AI helper.
+
+→ Pehnava: [Repository](https://github.com/Saksham1105/Pehnava---Mean-Stack) · [Live](https://pehnava.mazrik.in/)  
+→ Open Syllabus: [Repository](https://github.com/Saksham1105/The-Open-Syllabus)
+
+</details>
+
+<details>
+<summary><strong>📱 MOBILE DISTRICT — Internal Projects</strong></summary>
+<br/>
+
+The Mobile District contains mobile engineering work. **GymPro** is an internal Android mobile application.
+
+`[ GYMPRO · PRIVATE · INTERNAL ]`
+
+</details>
+
+<details>
+<summary><strong>🌲 EXPERIMENT FOREST — Coursework & Prototypes</strong></summary>
+<br/>
+
+The Experiment Forest covers engineering foundations and coursework: C/C++ fundamentals, Operating Systems programs, Compiler Design assignments, Analysis of Algorithms, and early project management prototypes.
+
+</details>
+
+<details>
+<summary><strong>🔒 PRIVATE WING — Restricted Access</strong></summary>
+<br/>
+
+Internal and client projects currently restricted from public access:
+
+`[ NAMO-WEBSITE · RESTRICTED ]` &nbsp;·&nbsp; `[ AI-AGENCY-PORTFOLIO · RESTRICTED ]`
+
+</details>
+
+<br/>
+
+---
+
+## ◈ CONTACT
+
+<div align="center">
+
+[ **`GitHub → @Saksham1105`** ](https://github.com/Saksham1105)
+
+</div>
+
+<br/>
+
+---
+
+<div align="center">
+
+<sub>SAKSHAM WORLD &nbsp;·&nbsp; still building &nbsp;·&nbsp; everything here was built, broken, learned, or rebuilt</sub>
+
+</div>
