@@ -1,1 +1,19 @@
-PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIj4KICA8IS0tIEFJIExhYiBpY29uOiBkb21lICsgYW50ZW5uYSAtLT4KICA8IS0tIERvbWUgYmFzZSAtLT4KICA8ZWxsaXBzZSBjeD0iMTYiIGN5PSIyMCIgcng9IjExIiByeT0iNSIgZmlsbD0iIzBmMjA0MCIgc3Ryb2tlPSIjNGE5ZWZmIiBzdHJva2Utd2lkdGg9IjAuOCIgb3BhY2l0eT0iMC45Ii8+CiAgPCEtLSBEb21lIGFyY2ggLS0+CiAgPHBhdGggZD0iTSA1IDIwIEEgMTEgMTMgMCAwIDEgMjcgMjAiIGZpbGw9IiMwZDFlMzUiIHN0cm9rZT0iIzRhOWVmZiIgc3Ryb2tlLXdpZHRoPSIwLjgiLz4KICA8IS0tIENlbnRyYWwgYW50ZW5uYSAtLT4KICA8bGluZSB4MT0iMTYiIHkxPSI3IiB4Mj0iMTYiIHkyPSIyMCIgc3Ryb2tlPSIjNGE5ZWZmIiBzdHJva2Utd2lkdGg9IjEiIG9wYWNpdHk9IjAuOCIvPgogIDwhLS0gQW50ZW5uYSB0aXAgZ2xvdyAtLT4KICA8Y2lyY2xlIGN4PSIxNiIgY3k9IjciIHI9IjEuOCIgZmlsbD0iIzRhOWVmZiIgb3BhY2l0eT0iMC45Ii8+CiAgPCEtLSBTaWRlIHNhdGVsbGl0ZSBub2RlcyAtLT4KICA8Y2lyY2xlIGN4PSI3IiBjeT0iMTkiIHI9IjEuMiIgZmlsbD0iIzRhOWVmZiIgb3BhY2l0eT0iMC42Ii8+CiAgPGNpcmNsZSBjeD0iMjUiIGN5PSIxOSIgcj0iMS4yIiBmaWxsPSIjNGE5ZWZmIiBvcGFjaXR5PSIwLjYiLz4KICA8IS0tIENvbm5lY3Rpb24gbGluZXMgLS0+CiAgPGxpbmUgeDE9IjciIHkxPSIxOSIgeDI9IjE2IiB5Mj0iMjAiIHN0cm9rZT0iIzRhOWVmZiIgc3Ryb2tlLXdpZHRoPSIwLjUiIG9wYWNpdHk9IjAuNCIvPgogIDxsaW5lIHgxPSIyNSIgeTE9IjE5IiB4Mj0iMTYiIHkyPSIyMCIgc3Ryb2tlPSIjNGE5ZWZmIiBzdHJva2Utd2lkdGg9IjAuNSIgb3BhY2l0eT0iMC40Ii8+CiAgPCEtLSBHcm91bmQgLS0+CiAgPHJlY3QgeD0iNCIgeT0iMjQiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyIiBmaWxsPSIjMGQxZTM1IiByeD0iMSIvPgo8L3N2Zz4K
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- AI Lab icon: dome + antenna -->
+  <!-- Dome base -->
+  <ellipse cx="16" cy="20" rx="11" ry="5" fill="#0f2040" stroke="#4a9eff" stroke-width="0.8" opacity="0.9"/>
+  <!-- Dome arch -->
+  <path d="M 5 20 A 11 13 0 0 1 27 20" fill="#0d1e35" stroke="#4a9eff" stroke-width="0.8"/>
+  <!-- Central antenna -->
+  <line x1="16" y1="7" x2="16" y2="20" stroke="#4a9eff" stroke-width="1" opacity="0.8"/>
+  <!-- Antenna tip glow -->
+  <circle cx="16" cy="7" r="1.8" fill="#4a9eff" opacity="0.9"/>
+  <!-- Side satellite nodes -->
+  <circle cx="7" cy="19" r="1.2" fill="#4a9eff" opacity="0.6"/>
+  <circle cx="25" cy="19" r="1.2" fill="#4a9eff" opacity="0.6"/>
+  <!-- Connection lines -->
+  <line x1="7" y1="19" x2="16" y2="20" stroke="#4a9eff" stroke-width="0.5" opacity="0.4"/>
+  <line x1="25" y1="19" x2="16" y2="20" stroke="#4a9eff" stroke-width="0.5" opacity="0.4"/>
+  <!-- Ground -->
+  <rect x="4" y="24" width="24" height="2" fill="#0d1e35" rx="1"/>
+</svg>
