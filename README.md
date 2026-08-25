@@ -4,7 +4,6 @@
 - 👀 I’m interested in Artificial Intelligence and Machine Learning
 - 🌱 I’m currently learning Python
 - 💞️ I’m looking to collaborate on Python projects
-- 📫 GitHub: [Saksham1105](https://github.com/Saksham1105)
 - ⚡ I enjoy exploring and building in the world of AI
 - 🚀 Currently building **[Mazrik.in](https://mazrik.in/)**
 - 🏗️ Building [**Mazrik**](https://github.com/Mazrik-MKSdev-1) — a digital product and web development brand
