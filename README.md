@@ -20,7 +20,6 @@ Saksham1105/Saksham1105 is a ✨ special ✨ repository because its `README.md` 
 
 **Saksham Raj Singh Chauhan**  
 Computer Science & Engineering — AI & ML  
-GitHub: [@Saksham1105](https://github.com/Saksham1105)
 
 ## 🚀 Building Mazrik
 
