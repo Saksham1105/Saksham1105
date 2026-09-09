@@ -1,6 +1,6 @@
 # Saksham1105
 
-- 👋 Hi, I’m Saksham Raj Singh Chauhan (`@Saksham1105`)
+- 👋 Hi, I’m Saksham (`@Saksham1105`)
 - 👀 I’m interested in Artificial Intelligence and Machine Learning
 - 🌱 I’m currently learning Python
 - 💞️ I’m looking to collaborate on Python projects
